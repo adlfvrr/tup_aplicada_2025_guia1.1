@@ -1,0 +1,17 @@
+﻿USE Guia1_1_Ejercicio1_Adolfo_db;
+GO
+CREATE TABLE Personas
+(
+	Id INT PRIMARY KEY IDENTITY(1,1), 
+	LU INT NOT NULL UNIQUE,
+	Nombre VARCHAR(100) NOT NULL DEFAULT 'Sin definir',
+	Nota DECIMAL(18,2) NOT NULL DEFAULT 0
+)
+GO
+INSERT INTO Personas(LU)
+VALUES
+(255),
+(133),
+(432)
+
+SELECT * FROM Personas
