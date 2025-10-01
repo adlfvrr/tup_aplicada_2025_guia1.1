@@ -60,5 +60,8 @@
   <ItemGroup>
     <None Include="0_crear_base.sql" />
     <None Include="1_crear_tabla.sql" />
+    <None Include="2_listar_alumnos_select.sql" />
+    <None Include="3_listar_alumnos_mayorymenor_select.sql" />
+    <None Include="4_listar_alumnos_ia_select.sql" />
   </ItemGroup>
 </Project>

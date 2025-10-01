@@ -8,10 +8,20 @@ CREATE TABLE Personas
 	Nota DECIMAL(18,2) NOT NULL DEFAULT 0
 )
 GO
-INSERT INTO Personas(LU)
+INSERT INTO Personas(LU,Nombre,Nota)
 VALUES
-(255),
-(133),
-(432)
+(3457,'Daniela', 8.5),
+(2540,'Andrés',7.0),
+(4233,'Estefanía',9.0),
+(2412,'Ramón',6.0),
+(2432,'Adrían',8.0),
+(8445,'Maria Florencia',6.0),
+(9564,'María Virginia',10.0)
+
+
+GO
+
 
 SELECT * FROM Personas
+
+GO
